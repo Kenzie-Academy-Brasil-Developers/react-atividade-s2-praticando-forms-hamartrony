@@ -1,0 +1,194 @@
+.container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 305px;
+  /* height: 400px; */
+  justify-content: space-around;
+}
+
+.inputs{
+  height: 45px;
+}
+
+.confirm{
+  position: absolute;
+  margin-top: 211px;
+  margin-left: 150px;
+}
+
+/* textarea:focus, input:focus, select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0px;
+}  */
+
+
+input{
+  border: 1px white solid;
+  background-color: transparent;
+  height: 25px; 
+  width: 300px;
+  color:aliceblue;
+  font-weight: 800;
+}
+
+input:hover{
+  border-color: rgb(6, 58, 155);
+  box-shadow: 0 0 1em rgb(6, 58, 155);
+}
+
+input:focus{
+  border: 2px rgb(6, 58, 155) solid;
+  box-shadow: 0 0 3em rgb(6, 58, 155);
+  outline: 3px white (2, 0, 0) solid;
+}
+
+.inputsSenha{
+  width: 310px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+
+
+}
+
+
+.senha{
+  /* position: relative; */
+  
+  width: 142px;
+}
+
+.senhaConfirm{ 
+  margin-top: 0px;
+  margin-left: 10px;
+
+}
+
+
+
+
+label{
+ 
+  position: absolute;
+  width: auto;
+  height: 10px;
+  margin-top: -5px;
+  margin-left: 165px;
+  /* position: absolute; */
+  font-size: 10px;
+
+  background-color: #282c34;
+
+}
+
+button{
+  height: 25px;
+  border-radius: 15px;
+  background: transparent;
+  border: 2px white solid;
+  margin-top: 15px;
+  color: white;
+}
+
+
+button:hover{
+  background-color: rgb(6, 58, 155);
+  border:2px rgb(6, 58, 155) solid;
+  box-shadow: 0 0 3em rgb(6, 58, 155);
+  color:white;
+}
+
+
+button:focus{
+  background-color: rgb(6, 58, 155);
+  border:2px rgb(6, 58, 155) solid;
+  box-shadow: 0 0 3em rgb(6, 58, 155);
+  color:white;
+}
+
+button:active{
+  background-color: white;
+  color: black;
+}
+
+
+.check{
+  display: flex;
+  flex-direction: row;
+  height: 10px;
+}
+
+.check input{
+  width: 10px;
+  height: 10px;
+  height: 10px;
+  margin: 0px;
+  margin: 0px;
+  
+}
+
+
+
+
+.termos{  
+  /* position: absolute; */
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.termos:hover{
+  border-color: none;
+  box-shadow: none;
+
+}
+
+.checkdiv{
+  margin-top: 10px;
+  height: 20px;
+}
+
+.check p{
+  position: absolute;
+  margin-top: 30px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 13px;
+  align-self: flex-end;
+  color: rgb(6, 58, 155);
+}
+
+
+p{
+  margin: 0px;
+  color: red;
+  font-size: 10px;
+  align-self:flex-end;
+ 
+}
+
+.inputsSenha p{
+  position: absolute;
+
+}
+
+.inputsSenha p:last-child{
+  margin-left: 160px;
+
+}
+
